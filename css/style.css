@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* ------------------------- HEADER ---------------------------- */
+header{
+    background-color: black;  
+}
+header nav{
+    display: flex;
+    align-items: center;
+    
+}
+header div{
+    flex: 1;
+    color: white;
+    text-align: center;
+}
+nav p{
+    font-size: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.sc1 img[alt="avatar"]{
+    width: 150px;
+    height: auto;
+    padding-top: 15px;
+}
+.sc1{  
+    background-color: red;
+    height: 300px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+/* --------------------------- FIN HEADER NAV ------------------------ */
+.sc1 h2{
+    font-size: xx-large;    
+}
+.sc1 div{
+    text-align: center;
+}
+.sc1 img{
+    width: 200px;
+    height: auto;
+    margin: 0 5px;    
+}
+/* ---------------------------- FIN SECTION 1 ----------------------- */
+.sc2{
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+}
+.sc2 img{
+    width: 200px;
+    height: auto;
+    margin: 0 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* -------------------------- FIN SECTION 2 --------------------- */
+.sc3{
+ background-color: red;
+ padding: 30px;
+ text-align: center;
+ align-items: center;
+ color:white
+}
+.sc3 h2{
+    text-align: center;
+}
+
+.sc3 .row{ 
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+/* ------------------------------ FIN SECTION 3 ----------------------- */
+.sc4{
+    text-align: center;    
+}
+.sc4 form{
+   display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type=text] {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width: 50%;
+  }
+  textarea{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width: 50%;
+    resize: none;
+  }
+  button{
+      border-radius: 5px;
+      background-color: red;
+      color: white;
+      width:80px;
+      height: 40px;
+      margin-top: 15px;
+      margin-right: 45%;
+      margin-bottom: 50px;
+  }
+  /* ------------------------------------------ FIN SECTION 4------------------------------ */
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+footer div {
+    flex: 1;
+}
+footer span{
+    color: green;
+}
+footer i{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 50%;
+    border:white solid ;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+    
+}
+.sc5{
+    background-color: gray;
+    width: auto;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+/* ---------------------------------------------- FIN FOOTER ----------------------------------- */
+@media screen and (max-width : 620px) {
+    nav{
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width:620px) {
+    footer{
+        flex-direction: column;
+    }
+}
